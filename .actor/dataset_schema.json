@@ -1,0 +1,41 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string",
+        "title": "Surveillance Status"
+      },
+      "timestamp": {
+        "type": "string",
+        "title": "Timestamp"
+      },
+      "liveTerminalUrl": {
+        "type": "string",
+        "title": "Terminal URL"
+      },
+      "whopCommercialListing": {
+        "type": "string",
+        "title": "Whop Listing"
+      }
+    }
+  },
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "status",
+          "timestamp",
+          "liveTerminalUrl",
+          "whopCommercialListing"
+        ]
+      },
+      "display": {
+        "component": "table"
+      }
+    }
+  }
+}

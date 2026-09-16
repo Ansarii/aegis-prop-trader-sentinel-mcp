@@ -1,0 +1,22 @@
+{
+  "apify-actor-start": {
+    "eventTitle": "Surveillance Run Initialization",
+    "eventDescription": "Initializes the multi-firm prop capital surveillance runner.",
+    "eventPriceUsd": 0.03
+  },
+  "apify-default-dataset-item": {
+    "eventTitle": "Surveillance Audit Result Record",
+    "eventDescription": "Charged automatically when a risk audit record is stored to dataset.",
+    "eventPriceUsd": 0.001
+  },
+  "drawdown-audit": {
+    "eventTitle": "Drawdown Risk Audit",
+    "eventDescription": "Calculates real-time equity cushion against trailing maximum drawdowns.",
+    "eventPriceUsd": 0.01
+  },
+  "mcp-tool-call": {
+    "eventTitle": "MCP Surveillance Tool Call",
+    "eventDescription": "One verified tool query from Claude Desktop, Cursor, or an AI agent.",
+    "eventPriceUsd": 0.005
+  }
+}

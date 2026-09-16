@@ -1,0 +1,25 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Aegis Prop Trader Risk Sentinel Endpoints",
+  "type": "object",
+  "properties": {
+    "mcpEndpoint": {
+      "title": "Streamable HTTP MCP Endpoint",
+      "type": "string",
+      "description": "Streamable HTTP MCP endpoint for Claude Desktop, Cursor, or AI trading agents.",
+      "template": "{{links.containerRunUrl}}/mcp"
+    },
+    "sseEndpoint": {
+      "title": "Server-Sent Events (SSE) Endpoint",
+      "type": "string",
+      "description": "SSE transport endpoint for MCP clients.",
+      "template": "{{links.containerRunUrl}}/sse"
+    },
+    "discoveryUrl": {
+      "title": "MCP Server Card",
+      "type": "string",
+      "description": "Public MCP discovery and server-card manifest.",
+      "template": "{{links.containerRunUrl}}/.well-known/mcp/server-card.json"
+    }
+  }
+}

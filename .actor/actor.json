@@ -1,0 +1,21 @@
+{
+  "actorSpecification": 1,
+  "name": "aegis-prop-trader-sentinel-mcp",
+  "title": "Aegis Prop Trader Drawdown & Risk Sentinel (MCP)",
+  "description": "Real-time multi-firm capital oversight, trailing drawdown alerts, and news blackout defense for funded prop traders (Apex, Topstep, FTMO, cTrader, Tradovate).",
+  "version": "1.0.0",
+  "usesStandbyMode": true,
+  "webServerMcpPath": "/mcp",
+  "standbyPort": 8080,
+  "dockerfile": "../Dockerfile",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 120,
+    "memoryMbytes": 256
+  }
+}

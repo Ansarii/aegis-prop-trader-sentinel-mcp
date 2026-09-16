@@ -1,0 +1,37 @@
+{
+  "title": "Aegis Prop Risk & Drawdown Sentinel Configuration",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "action": {
+      "title": "Surveillance Action",
+      "type": "string",
+      "description": "Risk surveillance action to execute in batch mode.",
+      "default": "full_surveillance_audit",
+      "editor": "select",
+      "enum": ["full_surveillance_audit", "check_drawdown_limits", "check_news_blackout", "portfolio_summary"]
+    },
+    "alertThresholdPct": {
+      "title": "Drawdown Alert Threshold (%)",
+      "type": "integer",
+      "description": "Trigger emergency warning if consumed daily loss exceeds this percentage.",
+      "default": 80,
+      "minimum": 10,
+      "maximum": 100,
+      "editor": "number"
+    },
+    "currency": {
+      "title": "Reporting Currency",
+      "type": "string",
+      "description": "Base currency for portfolio equity aggregation.",
+      "default": "USD",
+      "editor": "textfield"
+    },
+    "whopLicenseKey": {
+      "title": "Whop License Key",
+      "type": "string",
+      "description": "Optional active Aegis license key from Whop for unlocked institutional features.",
+      "editor": "textfield"
+    }
+  }
+}

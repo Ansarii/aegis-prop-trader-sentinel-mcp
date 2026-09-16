@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Ansarii/aegis-prop-trader-sentinel-mcp",
+  "title": "Aegis Prop Trader Drawdown Sentinel",
+  "description": "Real-time capital oversight, drawdown alerts, and news blackout defense for funded prop traders.",
+  "version": "1.0.1",
+  "websiteUrl": "https://neoninnovationlab.com/aegis",
+  "repository": {
+    "url": "https://github.com/Ansarii/aegis-prop-trader-sentinel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neon_innovation_lab--aegis-prop-trader-sentinel-mcp.apify.actor/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://neon_innovation_lab--aegis-prop-trader-sentinel-mcp.apify.actor/sse"
+    }
+  ]
+}
