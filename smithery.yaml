@@ -1,0 +1,6 @@
+startCommand:
+  type: stdio
+  config:
+    command: npm
+    args:
+      - start
