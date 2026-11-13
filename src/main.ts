@@ -148,7 +148,7 @@ if (process.env.APIFY_META_ORIGIN !== 'STANDBY') {
   const resultRecord = {
     status: 'COMPLETED',
     timestamp: new Date().toISOString(),
-    whopCommercialListing: 'https://whop.com/neoninnovationlab/prop-trader-capital-surveillance-console',
+    whopCommercialListing: 'https://neoninnovationlab.com/tools/prop-trader-drawdown-sentinel',
     liveTerminalUrl: 'https://neoninnovationlab.com/aegis',
     portfolioSummary: {
       totalEquity: portfolio.totalEquity,
@@ -199,7 +199,7 @@ app.get('/', (req: Request, res: Response) => {
       discovery: '/.well-known/mcp/server-card.json',
       health: '/health'
     },
-    whopStore: 'https://whop.com/neoninnovationlab/prop-trader-capital-surveillance-console'
+    whopStore: 'https://neoninnovationlab.com/tools/prop-trader-drawdown-sentinel'
   });
 });
 

@@ -2,7 +2,7 @@
 
 [![Apify Actor](https://img.shields.io/badge/Apify-Actor-orange?style=for-the-badge&logo=apify)](https://apify.com/neon_innovation_lab/aegis-prop-trader-sentinel-mcp)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Standard-blue?style=for-the-badge)](https://modelcontextprotocol.io)
-[![Whop Store](https://img.shields.io/badge/Whop-Store-purple?style=for-the-badge)](https://whop.com/neoninnovationlab/prop-trader-capital-surveillance-console)
+[![Neon Innovation Lab](https://img.shields.io/badge/Neon_Innovation_Lab-Pricing-purple?style=for-the-badge)](https://neoninnovationlab.com/tools/prop-trader-drawdown-sentinel)
 
 **Aegis Terminal** is an institutional-grade, non-custodial capital surveillance, trailing drawdown monitor, and economic news blackout sentinel engineered specifically for funded futures and forex prop traders operating across **Apex Trader Funding**, **Topstep**, **FTMO**, and **MyFundedFX**.
 
@@ -14,7 +14,7 @@ Aegis solves this by aggregating multi-firm equity in real time and exposing aut
 
 ## 🚀 Live Links & Production Consoles
 - **Interactive Web Terminal**: [https://neoninnovationlab.com/aegis](https://neoninnovationlab.com/aegis)
-- **Whop Discover Marketplace ($19.99/mo)**: [https://whop.com/neoninnovationlab/prop-trader-capital-surveillance-console](https://whop.com/neoninnovationlab/prop-trader-capital-surveillance-console)
+- **Pricing & License**: [https://neoninnovationlab.com/tools/prop-trader-drawdown-sentinel](https://neoninnovationlab.com/tools/prop-trader-drawdown-sentinel)
 - **Direct Support & Enterprise Retainers**: `hello@neoninnovationlab.com`
 
 ---
